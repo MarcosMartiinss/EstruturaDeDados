@@ -35,5 +35,6 @@ def dicionario():
         else:
             print("Exibindo os dados chave", chave, "com o valor", valor)
 
-
+    print("Removendo a chave salário: ", dicionario.pop("salario"))
+    print(dicionario)
 dicionario()
