@@ -22,7 +22,7 @@ def dicionario():
     print("Imprimindo os dados do dicionário")
     for chave, valor in dicionario.items():
         if chave == "dataNascimento":
-            print("Exibindo os dados da chave", chave, "ocm o valor", valor.strftime("%d/%m/%Y"))
+            print("Exibindo os dados da chave", chave, "com o valor", valor.strftime("%d/%m/%Y"))
         elif chave == "filhos":
             for i in range(len(valor)):
                 for chaveFilhos, valorFilhos in valor[i].items():
