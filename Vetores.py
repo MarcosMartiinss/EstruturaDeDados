@@ -1,5 +1,6 @@
 print("Definição de Vetores")
 
+
 def main():
     vetorVazio = []
     vetorVazio2: list
@@ -26,4 +27,14 @@ def main():
     vetoresReais = [1.2, 3.5, 12.3, 4.2]
     print("Valores no vetorReais são: ", vetoresReais)
 
+
 main()
+
+vetorA = []
+vetorB: list
+vetorA = ['A', 'B', 'C']
+vetorB = vetorA
+print(vetorA)
+print(vetorB)
+print(vetorA == vetorB)
+print(vetorA is vetorB)
